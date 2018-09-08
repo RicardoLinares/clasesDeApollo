@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536074006 source:/home/alumno/Documentos/Linares/FLOATVALIDATION/main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1536422251 source:/home/alumno/Documentos/Linares/repositorios/FLOATVALIDATION/main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
