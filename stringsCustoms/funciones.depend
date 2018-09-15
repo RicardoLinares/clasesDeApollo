@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1537020574 source:/home/alumno/Escritorio/funciones/stringCustom.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<ctype.h>
+	"stringCustom.h"
+
+1537017389 /home/alumno/Escritorio/funciones/stringCustom.h
+
+1537018321 source:/home/alumno/Escritorio/funciones/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<ctype.h>
+	"stringCustom.h"
+

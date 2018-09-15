@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1537026758 source:/home/alumno/Escritorio/ValidacionMedio/validations.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validations.h"
+
+1537026340 source:/home/alumno/Escritorio/ValidacionMedio/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validations.h"
+
+1537023627 /home/alumno/Escritorio/ValidacionMedio/validations.h
+
