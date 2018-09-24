@@ -11,11 +11,11 @@ int main()
 {
 
     sStudent newStudent[CANTIDAD];
-
     initializeListStudents(newStudent,CANTIDAD);
 
     int opcion;
     int auxiliar;
+
     do
     {
         printListStrings(5,
@@ -34,8 +34,20 @@ int main()
         case 1:
             mostrarAlumno(newStudent[auxiliar]);
             break;
+        case 2:
+            auxiliar = buscarAlumnoPorLegajo(newStudent, CANTIDAD);
+            if(auxiliar != -1)
+            {
+                modificarAlumno(newStudent[auxiliar]);
+            }
+            else
+            {
+                printf("No se encontro al alumno\n");
+            }
+            break;
         case 3:
             mostrarListaDeAlumnos(newStudent, CANTIDAD);
+            break;
         case 4:
             printf("Hasta Luego\n\n");
             break;

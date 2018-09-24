@@ -14,9 +14,9 @@ typedef struct
 
 static int generateNextId(void);
 void newLegajo(sStudent*, char[]);
-void newName(sStudent*, char[]);
-void newAltura(sStudent*, char[]);
-void newNote(sStudent*, char[]);
+void newName(char[], char[], int);
+float newAltura(char[], int);
+int newNote(char[], int);
 
 void ordernarAlumnos(sStudent[], int);
 
@@ -28,5 +28,8 @@ void cargarAlumno(sStudent*);
 
 void initializeListStudents(sStudent[], int);
 int buscarLibre(sStudent[], int);
+
+int buscarAlumnoPorLegajo(sStudent[], int);
+int modificarAlumno(sStudent);
 
 void showMenu(void);

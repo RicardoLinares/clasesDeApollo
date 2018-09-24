@@ -46,3 +46,35 @@
 
 1537622955 /home/alumno/Escritorio/estructuras/menuSystem.h
 
+1537788989 source:/home/alumno/Documentos/Linares/clasesDeApollo/Menu/menuSystem.c
+	<stdio.h>
+	<string.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<stdarg.h>
+	<ctype.h>
+	"menuSystem.h"
+
+1537788989 /home/alumno/Documentos/Linares/clasesDeApollo/Menu/menuSystem.h
+
+1537799983 source:/home/alumno/Documentos/Linares/clasesDeApollo/estructuras/main.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"structAlumno.h"
+	"menuSystem.h"
+
+1537801043 /home/alumno/Documentos/Linares/clasesDeApollo/estructuras/structAlumno.h
+
+1537788989 /home/alumno/Documentos/Linares/clasesDeApollo/estructuras/menuSystem.h
+
+1537802402 source:/home/alumno/Documentos/Linares/clasesDeApollo/estructuras/structAlumno.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	"structAlumno.h"
+	"menuSystem.h"
+
