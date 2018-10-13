@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1539444729 source:d:\linares\memoriadinamica\memoriadinamica.c
+	"memoriaDinamica.h"
+
+1539444332 d:\linares\memoriadinamica\memoriadinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1539444425 source:d:\linares\memoriadinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"memoriaDinamica.h"
+

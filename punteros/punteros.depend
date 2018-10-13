@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1539435220 source:d:\linares\punteros\listanumeros.c
+	"listaNumeros.h"
+	<stdio.h>
+	<stdlib.h>
+
+1539435369 source:d:\linares\punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listaNumeros.h"
+
+1539435573 d:\linares\punteros\listanumeros.h
+	<stdio.h>
+	<stdlib.h>
+

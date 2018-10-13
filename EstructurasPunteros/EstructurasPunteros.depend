@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1539438135 source:d:\linares\estructuraspunteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1539439035 d:\linares\estructuraspunteros\persona.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"texto.h"
+
+1539439361 source:d:\linares\estructuraspunteros\persona.c
+	"persona.h"
+
+1539438670 d:\linares\estructuraspunteros\texto.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1539438889 source:d:\linares\estructuraspunteros\texto.c
+	"texto.h"
+
