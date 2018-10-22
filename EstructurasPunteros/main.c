@@ -21,25 +21,32 @@
 int main()
 {
     int proceso;
+    int i;
+    S_Person newGuy[2] = {{"Ricardo", 19, 200000}, {"Leamdro", 18, 200001}};
 
-    S_Person newGuy;
+    S_Person* punteroGuy = newGuy;
 
-    S_Person* punteroGuy = &newGuy;
-
-    proceso = loadPerson(punteroGuy);
-
-
-    if(proceso != -1)
+    //  OPERADORES: * inaxexo ej (*punteroGuy).edad
+    //              -> FLECHA ej punteroGuy->edad
+    //  ARIMETICA:  (*punteroGuy).edad = se ve el dato edad de la estructura apuntanda
+    //              (*(punteroGuy+i)).edad = se ve el dado edad de el el elmento I apuntando.
+    //              puntero->edad = se ve el dadot de la entrucutra apuntada
+    //              (puntroguy+i)->edad = se v el dato de el elemento I apuntado,
+    for(i=0; i < 2; i++)
     {
-
-        printPerson(punteroGuy);
-
-    }
-    else
-    {
-        printf("NO INGRESO DATOS VALIDOS");
+        printf("Nombre: %s\n", (punteroGuy+i)->nombre);
+        printf("Edad: %d\n",  (punteroGuy+i)->edad);
+        printf("D.N.I: %d\n", (punteroGuy+i)->dni);
     }
 
+
+
+    //proceso = loadPerson(punteroGuy);
+    //int x = 20;
+
+
+    //*punteroGuy.edad = x;
+    //(*punteroGuy).edad = x;
 
 
     return 0;

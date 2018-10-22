@@ -22,3 +22,26 @@
 1539438889 source:d:\linares\estructuraspunteros\texto.c
 	"texto.h"
 
+1540211243 source:d:\linares\clasesdeapollo\estructuraspunteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1540209179 d:\linares\clasesdeapollo\estructuraspunteros\persona.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"texto.h"
+
+1540209179 d:\linares\clasesdeapollo\estructuraspunteros\texto.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1540211354 source:d:\linares\clasesdeapollo\estructuraspunteros\persona.c
+	"persona.h"
+
+1540209179 source:d:\linares\clasesdeapollo\estructuraspunteros\texto.c
+	"texto.h"
+

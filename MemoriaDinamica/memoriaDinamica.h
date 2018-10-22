@@ -3,6 +3,13 @@
 #include <string.h>
 #ifndef MEMORIADINAMICA_H_INCLUDED
 #define MEMORIADINAMICA_H_INCLUDED
+typedef struct
+{
+    int a;
+    int b;
+}eDato;
+
+eDato* newDato(int,char);
 
 char* getDynamicString(int);
 

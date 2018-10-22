@@ -1,6 +1,23 @@
 #include "memoriaDinamica.h"
 
+// * INDIRECCION O INACEXO
 
+
+
+
+
+eDato* newDato(int entero, char caracter)
+{
+    eDato* pDato;
+    pDato = (eDato*) malloc(sizeof(pDato)); // trabajando con heap o monto
+    if(pDato != NULL)
+    {
+        pDato->b = caracter;
+        pDato->a = entero;
+    }
+
+    return pDato;
+}
 char* getDynamicString(int size)
 {
     char* auxiliar;

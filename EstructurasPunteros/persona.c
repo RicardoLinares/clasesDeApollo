@@ -33,8 +33,7 @@ int loadPerson(S_Person* persona)
 
 void printPerson(S_Person* persona)
 {
-
-    printf("Nombre: %s\n", persona->nombre);
-    printf("Edad: %d\n", persona->edad);
-    printf("D.N.I: %d\n", persona->dni);
+    printf("Nombre: %s\n", (*(persona)).nombre);
+    printf("Edad: %d\n", (*(persona)).edad);
+    printf("D.N.I: %d\n", (*(persona)).dni);
 }
