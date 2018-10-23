@@ -12,16 +12,17 @@
 	<stdlib.h>
 	"memoriaDinamica.h"
 
-1540220320 source:d:\linares\clasesdeapollo\memoriadinamica\main.c
+1540299231 source:d:\linares\clasesdeapollo\memoriadinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"memoriaDinamica.h"
 
-1540220239 d:\linares\clasesdeapollo\memoriadinamica\memoriadinamica.h
+1540300767 d:\linares\clasesdeapollo\memoriadinamica\memoriadinamica.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<ctype.h>
 
-1540218434 source:d:\linares\clasesdeapollo\memoriadinamica\memoriadinamica.c
+1540301317 source:d:\linares\clasesdeapollo\memoriadinamica\memoriadinamica.c
 	"memoriaDinamica.h"
 
